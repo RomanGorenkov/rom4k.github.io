@@ -23,7 +23,7 @@ if(!localStorage.getItem('name')) {
   setUserName();
 } else {
   var storedName = localStorage.getItem('name');
-  myHeading.innerHTML  = 'Tatto is cool, ' + storedName;
+  myHeading.innerHTML  = 'Tatto is Cool, ' + storedName;
 }
 myButton.onclick = function() {
   setUserName();
